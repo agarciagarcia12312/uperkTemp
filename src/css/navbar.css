@@ -1,0 +1,43 @@
+.navbar {
+	background-color: black;
+}
+#menuIcon {
+	margin-top: 2%;
+}
+#name {
+	color: white;
+}
+.navLinks {
+	font-size: 1.5em;
+}
+#signInBtn {
+	float: right;
+	font-size: 1.5em;
+	background-color: black;
+	color: blue;
+	border:1px #0275d8 solid;
+	border-color: #0275d8;
+}
+
+/*for tablets with landscape orientation*/
+@media only screen and (orientation: landscape) and (min-device-width: 500px){
+	
+}
+
+/*for desktop screens with width over 700 px*/
+@media only screen and (min-width: 700px) {
+	#name {
+		margin-left: 15%;
+	}
+	#navbarSupportedContent {
+		font-size: .8em;
+	}
+
+	.navLinks {
+		margin-left: 10px;
+	}
+	#signInBtn {
+		/*font-size:2em;*/
+		margin-right:200px;
+	}
+}

@@ -1,0 +1,54 @@
+{
+  "name": "frutix",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel": "^6.23.0",
+    "body-parser": "^1.18.1",
+    "cookie-parser": "^1.4.3",
+    "express-flash": "0.0.2",
+    "express-session": "^1.15.5",
+    "logger": "0.0.1",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13",
+    "router-express": "^1.5.2",
+    "sequelize": "^4.11.0",
+    "sequelstore-connect": "^1.1.5",
+    "winston": "^2.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "server.js",
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agarciagarcia12312/frutix.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "juice-bar"
+  ],
+  "author": "Andy Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agarciagarcia12312/frutix/issues"
+  },
+  "homepage": "https://github.com/agarciagarcia12312/frutix#readme"
+}
